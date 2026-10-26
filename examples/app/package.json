@@ -1,0 +1,30 @@
+{
+  "name": "prism-ai",
+  "private": true,
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "preview": "next build && next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio",
+    "deploy": "vercel --prod",
+    "postinstall": "prisma generate"
+  },
+  "scripts-info": {
+    "dev": "Next.js dev server with Turbopack on :3000",
+    "build": "Production build",
+    "typecheck": "Type-check the whole app",
+    "test": "Unit tests (Vitest)",
+    "test:e2e": "Browser tests (Playwright)",
+    "db:push": "Sync Prisma schema to the database",
+    "deploy": "Ship to Vercel production"
+  }
+}

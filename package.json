@@ -1,0 +1,37 @@
+{
+  "name": "prism-npm-scripts",
+  "version": "1.0.0",
+  "description": "Zero-dependency script runner: grouped list of package.json scripts with descriptions, interactive picker, fuzzy matching (nr b:p → build:prod) and automatic npm / pnpm / yarn / bun detection.",
+  "bin": {
+    "nr": "bin/nr.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "npm-scripts",
+    "package-json",
+    "task-runner",
+    "pnpm",
+    "yarn",
+    "bun",
+    "developer-tools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-npm-scripts.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-npm-scripts#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
